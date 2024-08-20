@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News - VVHSS Thamarakulam</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" hrh="css/lightbox.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.0/photoswipe.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.0/default-skin/default-skin.css">
+</head>
+<body>
+    <header>
+        <h1>VVHSS Thamarakulam</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="admissions.html">Admissions</a></li>
+                <li><a href="academics.html">Academics</a></li>
+                <li class="active"><a href="news.html">News</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="news">
+            <h2>Latest News</h2>
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Search news..." aria-label="Search news">
+                <button type="button" id="searchButton">Search</button>
+            </div>
+            <div class="news-articles" id="newsArticles">
+                <article class="news-item">
+                    <a href="#lightbox" class="lightbox-trigger">
+                        <img src="/news/images/little-kites-20-08-24.jpeg" alt="News Image 1">
+                    </a>
+                    <h3>Little Kite News Report 20-08-24</h3>
+                    <p class="date">August 20, 2024</p>
+                    <p>ലിറ്റിൽ കൈറ്റ്സ് വാർത്താ നേരം</p>
+                    <a href="news/little-kites-news-report-20-8-24.html">Watch</a>
+                </article>
+                <article class="news-item">
+                    <img src="/news/images/eye-test-11-08-24.jpg" alt="News Image 2">
+                    <h3>Eye Test Camp</h3>
+                    <p class="date">August 11, 2024</p>
+                    <p></p>
+                    <a href="">Read more</a>
+                </article>
+                <article class="news-item">
+                    <img src="/news/images/padippura-logo.jpg" alt="News Image 3">
+                    <h3>Padippura Mega Activity</h3>
+                    <p class="date">August 11, 2024</p>
+                    <p>സ്‌കൂൾകുട്ടികൾക്ക് വിനോദത്തിലൂടെ വിജ്‌ഞാനം പകരുന്ന, സമ്മാനങ്ങളിലൂടെ പ്രോത്സാഹനമേകുന്ന 'പഠിപ്പുര മെഗാ ആക്ടിവിറ്റി' ക്ക് മലയാള മനോരമ തുടക്കമിടുന്നു.</p>
+                    <a href="/news/padippura-mega-activity.html">Read more</a>
+                </article>
+                <!-- Add more news articles as needed -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 VVHSS Thamarakulam. All rights reserved.</p>
+    </footer>
+
+</main>
+
+<!-- PhotoSwipe Markup -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="pswp__bg"></div>
+    <div class="pswp__scroll-wrap">
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+        <div class="pswp__ui pswp__ui--fit">
+            <div class="pswp__top-bar">
+                <div class="pswp__counter"></div>
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                <button class="pswp__button pswp__button--zoom" title="Zoom"></button>
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- PhotoSwipe JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.0/photoswipe.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.0/photoswipe-ui-default.min.js"></script>
+<script src="js/lightbox.js"></script>
+<script src="js/news.js"></script>
+</body>
+</html>
